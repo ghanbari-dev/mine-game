@@ -104,7 +104,7 @@ export default function Home() {
         <div className=" grid grid-cols-2 gap-4">
           <MenuButton width={8} height={8} mines={10} setInfo={setInfo} />
           <MenuButton width={16} height={16} mines={40} setInfo={setInfo} />
-          <MenuButton width={30} height={16} mines={99} setInfo={setInfo} />
+          <MenuButton width={25} height={25} mines={90} setInfo={setInfo} />
         </div>
       ) : (
         <Feild {...info} reset={ResetGame} isLock={isReset} />

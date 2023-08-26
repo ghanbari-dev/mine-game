@@ -29,9 +29,9 @@ const Tile = ({ t, setTotalHint, reset, isLock, isCheck }: Props) => {
     <div className="bg-[#aaaaaa55] border border-black w-full h-full">
       {clicked == 1 ? (
         <div className="bg-white w-full h-full flex justify-center items-center">
-          <div className="text-black  w-full h-full relative">
+          <div className="text-black text-[10px] w-full h-full relative flex justify-center items-center">
             {hint > 0 ? (
-              hint
+              <p>{hint}</p>
             ) : hint == -1 ? (
               <Image
                 src={bomb}
