@@ -17,7 +17,7 @@ type Props = {
 const MenuButton = ({ width, height, mines, setInfo }: Props) => {
   return (
     <button
-      onClick={() => setInfo({width, height, mines})}
+      onClick={() => setInfo({ width, height, mines })}
       className="border border-black rounded-md bg-[#333] w-64 h-64 text-white flex flex-col justify-center items-center hover:bg-[#555]"
     >
       <h1 className="font-extrabold">
